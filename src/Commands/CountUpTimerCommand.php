@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Veroca88\CountUpTimer\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class CountUpTimerCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'count-up-timer';
 
     public $description = 'My command';
 

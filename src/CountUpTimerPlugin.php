@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Veroca88\CountUpTimer;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class CountUpTimerPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'count-up-timer';
     }
 
     public function register(Panel $panel): void
